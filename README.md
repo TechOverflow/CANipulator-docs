@@ -5,9 +5,10 @@ The **CANipulator** is a CAN bus interface that allows the bridging, translation
 https://www.tindie.com/products/fusion/canipulator-automotive-dual-can-esp32-interface/
 
 ## To get started in Arduino IDE
-* Download/clone https://github.com/TechOverflow/esp32_can (include CANipulator examples)
-* Download/clone https://github.com/collin80/can_common
-* Download/clone https://github.com/TechOverflow/SmartLeds
+* Make sure your [arduino-esp32](https://github.com/espressif/arduino-esp32/) library (IDF 5.5+) and Arduino IDE is up to date
+* Download/clone https://github.com/TechOverflow/esp32_can (includes CANipulator examples)
+* Download/clone https://github.com/collin80/can_common (required for esp32_can)
+* Download/clone https://github.com/TechOverflow/SmartLeds (required in CANipulator examples)
 * In board selection choose **ESP32C6 Dev Module** (CANipulator) or **ESP32C5 Dev Module** (CANipulator V2)
 * Select the COM port of the connected device
 * Load an example and upload
