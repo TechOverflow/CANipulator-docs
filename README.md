@@ -9,6 +9,7 @@ https://www.tindie.com/products/fusion/canipulator-automotive-dual-can-esp32-int
 * Download/clone https://github.com/TechOverflow/esp32_can (includes CANipulator examples)
 * Download/clone https://github.com/collin80/can_common (required for esp32_can)
 * Download/clone https://github.com/TechOverflow/SmartLeds (required in CANipulator examples)
+* Download/clone https://github.com/Beirdo/Arduino-PCA9536 (CANipulator V2 only)
 * In board selection choose **ESP32C6 Dev Module** (CANipulator) or **ESP32C5 Dev Module** (CANipulator V2)
 * Select the COM port of the connected device
 * Load an example and upload
